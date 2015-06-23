@@ -34,7 +34,7 @@ LEDの点灯制御には汎用マイコンボード**Arduino**またはその互
 ##スケッチ
 今回使用しているArduinoのプログラム（スケッチ）はこちらから入手できます。
 
-github(http://---)
+github（https://github.com/LEDCUBEWS/LED_CUBE_WS）
 
 また、LEDの点灯パターンの設計に便利なファイルもダウンロードできます。
 
