@@ -1,0 +1,5 @@
+参考サイト
+すこしふしぎ.　http://ism1000ch.hatenablog.com/entry/2014/04/15/150442 (最初にこちらを見てつくろうかなと思いました）
+3x3x3 LED Cube メイキング　http://qiita.com/pictzzz/items/d74050ed0d7ac558571d　(配線はこちらのままです)
+化学専攻卒にも関わらず電子工作しちゃう奴　http://blog.livedoor.jp/syfone/archives/31809095.html (スケッチの基本はこちらからいただきです）
+Random Nerd Tutorials  http://randomnerdtutorials.com/arduino-led-cube-3x3x3/　(英語サイトですこし難しいですが、光らせ方がカッコいい）
