@@ -26,6 +26,9 @@
 ![回路図](https://github.com/LEDCUBEWS/LED_CUBE_WS/blob/master/配布資料/circuit.png)
 
 ##完成見本
+![前](https://github.com/LEDCUBEWS/LED_CUBE_WS/blob/master/photo/KIMG0039.jpg)
+![後](https://github.com/LEDCUBEWS/LED_CUBE_WS/blob/master/photo/KIMG0041.jpg)
+
 ※Arduino端末は各自用意していただく必要があります。
 
 ##マイコンボードについて
