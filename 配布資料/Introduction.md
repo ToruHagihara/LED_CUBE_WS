@@ -5,6 +5,9 @@
 2. LEDキューブをはんだづけで組み立てる
 3. マイコンボードに接続してプログラミングによって光らせる
 
+##完成見本
+<img alt="見本写真" src="https://raw.githubusercontent.com/LEDCUBEWS/LED_CUBE_WS/master/photo/KIMG0041.jpg" width="240" height="180"/>
+※Arduino端末は各自用意していただく必要があります。
 
 ##作業の流れ
 1. LEDのリード線を曲げる
@@ -23,13 +26,8 @@
 - 導線 
 
 ##回路図
-![回路図](https://github.com/LEDCUBEWS/LED_CUBE_WS/blob/master/配布資料/circuit.png)
+<img alt="回路図" src="https://raw.githubusercontent.com/LEDCUBEWS/LED_CUBE_WS/master/配布資料/circuit.png" width="440" height="280"/>
 
-##完成見本
-![前](https://github.com/LEDCUBEWS/LED_CUBE_WS/blob/master/photo/KIMG0039.jpg)
-![後](https://github.com/LEDCUBEWS/LED_CUBE_WS/blob/master/photo/KIMG0041.jpg)
-
-※Arduino端末は各自用意していただく必要があります。
 
 ##マイコンボードについて
 LEDの点灯制御には汎用マイコンボード**Arduino**またはその互換機を使用しています。
@@ -44,3 +42,6 @@ github（https://github.com/LEDCUBEWS/LED_CUBE_WS）
 ##作業上の注意
 - はんだごてはとても熱くなるので火傷に注意してください。
 - 小さなパーツを使うので手を切るなど怪我しないよう注意してください。
+
+
+
