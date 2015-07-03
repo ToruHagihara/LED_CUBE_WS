@@ -5,4 +5,4 @@ LED CUBE workshop at MAKERS BAZAAR OSAKA vol 2.
 
 # 構成
 - 配布資料：当日使用した資料です。
-- ledcube_temp：Arduino用のスケッチとLEDパターン設定用のツール(Excel互換ファイル)です。
+- ledcube：Arduino用のスケッチとLEDパターン設定用のツール(Excel互換ファイル)です。
