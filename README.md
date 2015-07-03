@@ -16,6 +16,6 @@
 - Arduino開発環境を自分で用意できる
 
 # 構成
-- ledcube：Arduino用のスケッチとLEDパターン設定用のツール(Excel互換.odsファイル)
+- Arduino：Arduino用のスケッチとLEDパターン設定用のツール(Excel互換.odsファイル)
 - 配布資料：当日使用する資料
 - 事前準備：開催準備に関係する資料
