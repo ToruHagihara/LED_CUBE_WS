@@ -26,7 +26,7 @@
 - 導線
 
 ##回路図
-<img alt="回路図" src="circuit.png" width="440" height="280"/>
+<img alt="回路図" src="Circuit.png" width="440" height="280"/>
 
 
 ##マイコンボードについて
