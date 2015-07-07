@@ -1,9 +1,21 @@
 # LED_CUBE_WS
-LED CUBE workshop at MAKERS BAZAAR OSAKA vol 2.
-2015年6月27日・28日開催　関西のデジタルものづくりメイカーズのイベント『メイカーズバザール大阪 vol.2』
-ワークショップ「LEDCUBEを作ろう」の資料です。
+ワークショップ「LED CUBEを作ろう」のパッケージ。
+
+#目標
+ワークショップをパッケージ化していつでも開催できるようにする。
+
+
+# WS概要
+詳細は[Introduction.md](配布資料/Introduction.md)を参照。
+
+## 目安時間
+- 2時間
+
+## 参加条件
+- はんだづけができる
+- Arduino開発環境を自分で用意できる
 
 # 構成
-- 配布資料：WS当日使用する資料
-- ledcube：Arduino用のスケッチとLEDパターン設定用のツール(Excel互換ファイル)
-- WS準備：WS開催準備に関係する資料
+- Arduino：Arduino用のスケッチとLEDパターン設定用のツール(Excel互換.odsファイル)
+- 配布資料：当日使用する資料
+- 事前準備：開催準備に関係する資料

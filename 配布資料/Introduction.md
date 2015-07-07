@@ -6,7 +6,7 @@
 3. マイコンボードに接続してプログラミングによって光らせる
 
 ##完成見本
-<img alt="見本写真" src="https://raw.githubusercontent.com/LEDCUBEWS/LED_CUBE_WS/master/photo/KIMG0041.jpg" width="240" height="180"/>
+<img alt="見本写真" src="完成見本/KIMG0041.jpg" width="240" height="180"/>
 ※Arduino端末は各自用意していただく必要があります。
 
 ##作業の流れ
@@ -23,10 +23,10 @@
 - 基盤 １枚
 - 抵抗(330 Ω)３個
 - ピンヘッダ(2.54mmピッチ6連) 2個
-- 導線 
+- 導線
 
 ##回路図
-<img alt="回路図" src="https://raw.githubusercontent.com/LEDCUBEWS/LED_CUBE_WS/master/配布資料/circuit.png" width="440" height="280"/>
+<img alt="回路図" src="circuit.png" width="440" height="280"/>
 
 
 ##マイコンボードについて
@@ -42,6 +42,3 @@ github（https://github.com/LEDCUBEWS/LED_CUBE_WS）
 ##作業上の注意
 - はんだごてはとても熱くなるので火傷に注意してください。
 - 小さなパーツを使うので手を切るなど怪我しないよう注意してください。
-
-
-
