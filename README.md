@@ -6,7 +6,7 @@
 
 
 # WS概要
-詳細は[Introduction.md](配布資料/Introduction.md)を参照。
+詳細は[01_Introduction.md](配布資料/01_Introduction.md)を参照。
 
 ## 目安時間
 - 2時間
