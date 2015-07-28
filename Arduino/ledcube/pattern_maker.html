@@ -1,0 +1,61 @@
+<html>
+
+<body>
+	<script type="text/javascript">
+		function getBinaryChar(id) {
+			var result = "0";
+			if (document.getElementById(id).checked) {
+				result = "1";
+			}
+			return result;
+		}
+
+		function calc() {
+			TBbinaryString.value = getBinaryChar("1") + getBinaryChar("2") + getBinaryChar("3") + getBinaryChar("4") + getBinaryChar("5") + getBinaryChar("6") + getBinaryChar("7") + getBinaryChar("8") + getBinaryChar("9");
+			var bit = parseInt(TBbinaryString.value, 2);
+			TB0xString.value = "0x"+ ("00" + bit.toString(16)).slice(-3);
+		}
+	</script>
+
+	<form>
+		<table>
+			<tr>
+				<td>
+					<input type="checkbox" id="1" onClick="calc()" />
+				</td>
+				<td>
+					<input type="checkbox" id="2" onClick="calc()" />
+				</td>
+				<td>
+					<input type="checkbox" id="3" onClick="calc()" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" id="4" onClick="calc()" />
+				</td>
+				<td>
+					<input type="checkbox" id="5" onClick="calc()" />
+				</td>
+				<td>
+					<input type="checkbox" id="6" onClick="calc()" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox" id="7" onClick="calc()" />
+				</td>
+				<td>
+					<input type="checkbox" id="8" onClick="calc()" />
+				</td>
+				<td>
+					<input type="checkbox" id="9" onClick="calc()" />
+				</td>
+			</tr>
+		</table>
+		<input type="textbox" id="TBbinaryString" />
+		<input type="textbox" id="TB0xString" />
+	</form>
+</body>
+
+</html>
