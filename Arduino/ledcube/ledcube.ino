@@ -1,5 +1,8 @@
+//LEDのアノード側接続ピン
 int led[] = {3,4,5,6,7,8,9,10,11};
+//レイヤーのカソード側接続ピン
 int layer[] = {12,13,2};
+//アニメーションの切り替え間隔
 int cycletime = 200;
 
 // アニメーション用データを格納する配列
@@ -7,6 +10,7 @@ int TEMP_LED[] = {
   0x000, 0x000, 0x000}; // 左からトップ層ミドル層ボトム層
 
 // アニメーション１ LED点灯データ
+// 上からTOP MID BOTの３層に分割してLEDの点灯パターンを定義する。
 // 1~9番目のLEDのON/OFFを1,0のバイナリ列で表し、１６進数に変換して表記
 // 全部OFF 000000000 → 0x000
 // 全部ON 111111111 → 0x1FF
@@ -72,6 +76,7 @@ void DynaDrive(int pat[]){
           digitalWrite(led[temp], LOW);
         }
       }
+      //点灯するLEDの回路に電位差を設定する。
       digitalWrite(layer[L], LOW);
       delayMicroseconds(500);
       digitalWrite(layer[L], HIGH);
@@ -82,7 +87,7 @@ void DynaDrive(int pat[]){
 
 //起動時処理
 void setup(){
-  //LEDに接続した各ピンを初期化
+  //LEDに接続した全ピンを初期化
   for(int i = 0; i < (sizeof(led) / sizeof(int)); i++){
     pinMode(led[i], OUTPUT);
   }
